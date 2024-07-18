@@ -5,7 +5,9 @@
     rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Odin project</title>
+    <link rel="stylesheet" href="signin.css">
+    
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -37,16 +39,16 @@
             <a class="nav-link" href="signup.html">Sign in</a>
           </li>
         </ul>
-        <a href=""><img src="img/icons8-sun-24.png" alt=""></a>
+        <button class="border-0" onclick="myFunction()"><img src="img/icons8-sun-24.png" alt="" ></a></button>
         
         <button class=" ms-3 btn btn-success shadow" type="submit">Search</button>
       </div>
     </div>
   </nav>
-    <div class="container-fluid text-center p-5 " style="background-color: rgb(247, 246, 246);">
+    <div class="container-fluid text-center p-5 ">
         <h2>Sign in to your account</h2>
         <p>Or   <a class="text-dark" href="">sign up for a new account</a></p>
-        <div class="container text-start P-5" style="background-color: white; max-width:500px;" >
+        <div class="container text-start P-5" style="background-color: white; max-width:400px;" >
             <form>
                 <div class="mb-3">
                   <label for="exampleInputEmail1" class="form-label">Email address</label>
@@ -56,8 +58,7 @@
                   <label for="exampleInputPassword1" class="form-label">Password</label>
                   <input type="password" class="form-control" id="exampleInputPassword1">
                 </div>
-                <div class="mb-3 form-check">
-                    
+                <div class="mb-3 form-check">                   
                   <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
                   <div class="d-flex justify-content-between">
                   <label class="form-check-label" for="flexCheckChecked">Remember me</label>
@@ -68,13 +69,14 @@
                     <p class="text-center">Or continue with</p>
                   </div>
                     <div class="d-flex justify-content-center gap-3">
-                        <button type="button" class="btn btn-outline-secondary" style="width: 150px;"> <img src="img/icons8-github-24.png" alt=""> </button>
-                        <button type="button" class="btn btn-outline-secondary" style="width: 150px;"> <img src="img/icons8-google-logo-30.png" alt=""> </button>
+                        <button type="button" class="btn btn-outline-secondary w-50 mb-4" > <img src="img/icons8-github-24.png" alt=""> </button>
+                        <button type="button" class="btn btn-outline-secondary w-50 mb-4" > <img src="img/icons8-google-logo-30.png" alt=""> </button>
                     </div>
               </form>
         </div>
     </div>
-    <div class="container-fluid text-center" style="margin-top: 150px; background-color: #fafafa;">
+    <!-- support -->
+    <div class="container-fluid text-center p-4" style="margin-top: 150px; background-color: #f0f0f0 ;  ">
       <h2>Support us!</h2>
       <p class="text-secondary">The Odin Project is funded by the community.
        Join us in empowering learners  <br> around the globe by supporting The Odin Project!</p>
@@ -83,7 +85,109 @@
         <img src="img/icons8-arrow-50.png" alt="" height="25px">
        </button>
     </div>
-    
+    <!-- footer -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 mt-5">
+          <div class="row">
+            <div class="col d-flex"> <a href="google.com ">
+                <img src="img/logo.png" alt="" width="52" height="47">
+                <a href="https://getbootstrap.com/docs/5.0/helpers/colored-links/" class="link-dark mt-3">
+                  <h6>THE ODIN PROJECT</h6>
+                </a>
+              </a></div>
+          </div>
+          <div class="row text-secondary mx-1 mt-4">
+            <h6>High quality coding education maintained by an open source community.</h6>
+          </div>
+          <div class="d-flex gap-4 mx-1 p-2">
+            <a href="twitter.com ">
+              <img class="A1" src="img/icons8-twitter-30.png" alt="" ></a>
+              <a href="facebook.com ">
+                <img class="A1" src="img/icons8-facebook-30.png" alt="" ></a>
+                <a href="discord.com ">
+                  <img class="A1" src="img/icons8-discord-30.png" alt=""></a>
+                  <a href="github.com ">
+                    <img class="A1" src="img/icons8-github-30.png" alt="" ></a>
+          </div>
+        </div>
+        <div class="col-lg-8 mt-5">
+          <div class="row">
+            <div class="col"><div class="row"><div class="col-lg-6 mt-2 pb-2">
+              <div class="row">
+                <h5>About us</h5>
+              </div>
+              <div class="row text-secondary pb-2">
+                <h6>About</h6>
+              </div>
+              <div class="row text-secondary pb-2">
+                <h6>Team</h6>
+              </div>
+              <div class="row text-secondary pb-2">
+                <h6>Blog</h6>
+              </div>
+              <div class="row text-secondary">
+                <h6>Success Stories</h6>
+              </div>
+            </div>
+            <div class="col-lg-6 mt-2">
+              <div class="row pb-2">
+                <h5>Guides</h5>
+              </div>
+              <div class="row text-secondary pb-2">
+                <h6>Community guides</h6>
+              </div>
+              <div class="row text-secondary">
+                <h6>Installation guides</h6>
+              </div>
+            </div></div></div>
+            <div class="col mx-5"><div class="row"><div class="col-lg-6 mt-2">
+              <div class="row pb-2">
+                <h5>Support</h5>
+              </div>
+              <div class="row text-secondary pb-2">
+                <h6>FAQ</h6>
+              </div>
+              <div class="row text-secondary pb-2">
+                <h6>Contribute</h6>
+              </div>
+              <div class="row text-secondary">
+                <h6>Contact us</h6>
+              </div>
+            </div>
+            <div class="col-lg-6 mt-2">
+              <div class="row pb-2">
+                <h5>Legal</h5>
+              </div>
+              <div class="row text-secondary pb-2">
+                <h6>Terms</h6>
+              </div>
+              <div class="row text-secondary">
+                <h6>Privacy</h6>
+              </div>
+            </div></div></div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <hr> 
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col text-secondary">
+            <h6>© 2024 The Odin Project. All rights reserved.</h6>
+          </div>
+  
+        </div>
+      </div>
+  
+    </div>
+    <script>
+      function myFunction() {
+         var element = document.body;
+         element.classList.toggle("dark-mode");
+      }
+      </script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
